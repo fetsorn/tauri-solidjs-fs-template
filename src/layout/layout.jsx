@@ -19,7 +19,7 @@ export function App() {
   return (
     <StoreContext.Provider value={{ store }}>
       <MetaProvider>
-        <Title>{"tauri-solidjs-api-template"}</Title>
+        <Title>{"tauri-solidjs-fs-template"}</Title>
       </MetaProvider>
 
       <main className={styles.main}>
